@@ -1,7 +1,7 @@
 # Sobre esse repositório
 Esse repositório visa dar suporte ao aprendizado de conceitos-chave para desenvolvimento de software
 
-# Procurando números narcisistas Narcissistic Number
+# Procurando números narcisistas
 
 Esse repositório foi criado inspirado em um post da página Fermat's Library sobre os números narcisistas. O link para o post pode ser visto abaixo:
 
@@ -13,6 +13,7 @@ Essa biblioteca deve ter uma aplicação console que a acompanhe no mesmo reposi
 
 Tanto a biblioteca quanto a aplicação console devem ser criadas sob uma pasta com o mesmo nome que seu usuário no GitHub. No meu caso, os arquivos estariam organizados sob disouzam como ilustrado abaixo (nomes fictícios, divisão de subpastas sugerida para projetos em C#, para projetos em Python, somente a pasta principal deve ser seguida estritamente):
 
+```
 disouzam
 |--Library
 |   |-- file1.cs
@@ -26,6 +27,7 @@ disouzam
 |   |-- Program.cs
 |   |-- Util.cs
 |   |-- console.csproj
+```
 
 A biblioteca deve conter uma suíte de testes e garantir 100% de cobertura de testes (baseado em branches).
 
