@@ -21,14 +21,14 @@ namespace numeronarcisista
             }
 
             return cont;
-       
+        
         }
 
         static bool verificanumero (int n)
         {
-            int ND = numerodedigitos (n);
+            int ND = numerodedigitos(n);
+            int numerooriginal = n;
             int soma = 0;
-            int numerooriginal = ND;
 
 
             while (ND > 0)
@@ -46,19 +46,20 @@ namespace numeronarcisista
         }
 
         static void Main(string[] args)
-        {
-            int n;
+        {   
+            Console.WriteLine("Numeros Narcisistas:");
 
-            Console.WriteLine("Informe o numero:");
-            n = int.Parse(Console.ReadLine());
-
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i <= 1000; i++)
             {
+                if (verificanumero(i))
+                {
+                    Console.WriteLine(i);
+                }
 
             }
 
 
-
+            Console.ReadKey(true);
         }
 
 
