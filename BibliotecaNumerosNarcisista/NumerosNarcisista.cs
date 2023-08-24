@@ -19,28 +19,30 @@
             }
 
             return cont;
-
         }
 
         public static bool verificanumero(int n)
         {
-            int ND = numerodedigitos(n);
+            if (n == 0)
+            {
+                return false;
+            }
+
+            int numerodigitos = numerodedigitos(n);
             int numerooriginal = n;
             int soma = 0;
 
-
-            while (ND > 0)
+            for (int i = 0; i < numerodigitos; i++)
             {
-                int digito = ND % 10;
-                soma = soma + (int)Math.Pow(digito, ND);
-                ND /= 10;
-
+                int ultimodigito = n % 10;
+                n /= 10;
+                soma = soma + (int)Math.Pow(ultimodigito, numerodigitos);
+                
             }
 
-            return soma == numerooriginal;
+            bool resposta = soma == numerooriginal;
 
-
-
+            return resposta;
         }
 
     }
