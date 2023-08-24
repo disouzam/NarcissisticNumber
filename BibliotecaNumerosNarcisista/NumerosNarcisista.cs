@@ -2,7 +2,7 @@
 {
     public class NumerosNarcisista
     {
-        static int numerodedigitos(int n)
+        public static int numerodedigitos(int n)
         {
             int cont = 0;
 
@@ -21,7 +21,8 @@
             return cont;
 
         }
-        static bool verificanumero(int n)
+
+        public static bool verificanumero(int n)
         {
             int ND = numerodedigitos(n);
             int numerooriginal = n;
