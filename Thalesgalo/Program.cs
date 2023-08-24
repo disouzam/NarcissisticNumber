@@ -1,4 +1,6 @@
-﻿namespace numeronarcisista
+﻿using BibliotecaNumerosNarcisista;
+
+namespace numeronarcisista
 {
     class program
     {
@@ -8,7 +10,7 @@
 
             for (int i = 0; i <= 1000; i++)
             {
-                if (verificanumero(i))
+                if (NumerosNarcisista.verificanumero(i))
                 {
                     Console.WriteLine(i);
                 }
