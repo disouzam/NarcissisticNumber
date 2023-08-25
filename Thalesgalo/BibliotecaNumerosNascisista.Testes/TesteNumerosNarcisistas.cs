@@ -32,5 +32,19 @@ namespace BibliotecaNumerosNascisista.Testes
             //Assert
             Assert.True(resposta);
         }
+        [Fact]
+        public void VerificaComprimentoDoZero()
+        {
+            //Arrange
+            int valor = 0;
+            int NumeroDeDigitos = 0;
+
+            //Act
+            NumeroDeDigitos = NumerosNarcisista.numerodedigitos(valor);
+
+            //Assert
+            Assert.Equal(1, NumeroDeDigitos);
+        }
+
     }
 }
