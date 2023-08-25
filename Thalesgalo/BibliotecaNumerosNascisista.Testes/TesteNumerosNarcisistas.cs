@@ -17,7 +17,6 @@ namespace BibliotecaNumerosNascisista.Testes
             resposta = NumerosNarcisista.verificanumero(zero);
 
             //Assert
-            Assert.False(resposta);
             resposta.Should().BeFalse();
         }
 
@@ -32,7 +31,6 @@ namespace BibliotecaNumerosNascisista.Testes
             resposta = NumerosNarcisista.verificanumero(valor);
 
             //Assert
-            Assert.True(resposta);
             resposta.Should().BeTrue();
         }
         [Fact]
@@ -46,7 +44,6 @@ namespace BibliotecaNumerosNascisista.Testes
             NumeroDeDigitos = NumerosNarcisista.numerodedigitos(valor);
 
             //Assert
-            Assert.Equal(1, NumeroDeDigitos);
             NumeroDeDigitos.Should().Be(1);
         }
 
