@@ -1,5 +1,6 @@
 using BibliotecaNumerosNarcisista;
 using Xunit;
+using FluentAssertions;
 
 namespace BibliotecaNumerosNascisista.Testes
 {
@@ -17,6 +18,7 @@ namespace BibliotecaNumerosNascisista.Testes
 
             //Assert
             Assert.False(resposta);
+            resposta.Should().BeFalse();
         }
 
         [Fact]
@@ -31,6 +33,7 @@ namespace BibliotecaNumerosNascisista.Testes
 
             //Assert
             Assert.True(resposta);
+            resposta.Should().BeTrue();
         }
         [Fact]
         public void VerificaComprimentoDoZero()
@@ -44,6 +47,7 @@ namespace BibliotecaNumerosNascisista.Testes
 
             //Assert
             Assert.Equal(1, NumeroDeDigitos);
+            NumeroDeDigitos.Should().Be(1);
         }
 
     }
