@@ -37,7 +37,6 @@
                 int ultimodigito = n % 10;
                 n /= 10;
                 soma = soma + (int)Math.Pow(ultimodigito, numerodigitos);
-                
             }
 
             bool resposta = soma == numerooriginal;
