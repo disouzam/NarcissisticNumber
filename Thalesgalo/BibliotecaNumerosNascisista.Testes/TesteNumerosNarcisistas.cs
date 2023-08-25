@@ -18,5 +18,19 @@ namespace BibliotecaNumerosNascisista.Testes
             //Assert
             Assert.False(resposta);
         }
+
+        [Fact]
+        public void CentoECinquentaEtresENarcisista()
+        {
+            //Arrange
+            int valor = 153;
+            bool resposta = false;
+
+            //Act
+            resposta = NumerosNarcisista.verificanumero(valor);
+
+            //Assert
+            Assert.True(resposta);
+        }
     }
 }
