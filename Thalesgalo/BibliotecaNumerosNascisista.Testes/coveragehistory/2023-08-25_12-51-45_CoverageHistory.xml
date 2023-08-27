@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2023-08-25_12-51-45" tag="">
+  <assembly name="BibliotecaNumerosNarcisista">
+    <class name="BibliotecaNumerosNarcisista.NumerosNarcisista" coveredlines="5" coverablelines="28" totallines="48" coveredbranches="1" totalbranches="8" coveredcodeelements="1" totalcodeelements="2" />
+  </assembly>
+</coverage>
