@@ -32,7 +32,7 @@
             long numerooriginal = n;
             long soma = 0;
 
-            for (int i = 0; i < numerodigitos; i++)
+            while (n > 0) 
             {
                 long ultimodigito = n % 10;
                 n /= 10;
