@@ -2,7 +2,7 @@ using BibliotecaNumerosNarcisista;
 using Xunit;
 using FluentAssertions;
 
-namespace BibliotecaNumerosNascisista.Testes
+namespace BibliotecaNumerosNarcisista.Testes
 {
     public class TesteNumerosNarcisistas
     {
@@ -14,7 +14,7 @@ namespace BibliotecaNumerosNascisista.Testes
             bool resposta = true;
 
             //Act
-            resposta = NumerosNarcisista.verificanumero(zero);
+            resposta = NumerosNarcisista.VerificaNumero(zero);
 
             //Assert
             resposta.Should().BeFalse();
@@ -28,7 +28,7 @@ namespace BibliotecaNumerosNascisista.Testes
             bool resposta = false;
 
             //Act
-            resposta = NumerosNarcisista.verificanumero(valor);
+            resposta = NumerosNarcisista.VerificaNumero(valor);
 
             //Assert
             resposta.Should().BeTrue();
@@ -42,7 +42,7 @@ namespace BibliotecaNumerosNascisista.Testes
             int NumeroDeDigitos = 0;
 
             //Act
-            NumeroDeDigitos = NumerosNarcisista.numerodedigitos(valor);
+            NumeroDeDigitos = NumerosNarcisista.NumeroDeDigitos(valor);
 
             //Assert
             NumeroDeDigitos.Should().Be(1);
@@ -98,7 +98,7 @@ namespace BibliotecaNumerosNascisista.Testes
             bool resposta = false;
 
             //Act
-            resposta = NumerosNarcisista.verificanumero(n);
+            resposta = NumerosNarcisista.VerificaNumero(n);
 
             //Assert
             resposta.Should().BeTrue();

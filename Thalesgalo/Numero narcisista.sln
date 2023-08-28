@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AplicacaoConsole", "Aplicac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaNumerosNarcisista", "BibliotecaNumerosNarcisista\BibliotecaNumerosNarcisista.csproj", "{DB002947-8711-4AE3-AF7C-A5044120F581}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaNumerosNascisista.Testes", "BibliotecaNumerosNascisista.Testes\BibliotecaNumerosNascisista.Testes.csproj", "{832304E2-72D5-4854-8FEC-E961FBFF2AEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaNumerosNarcisista.Testes", "BibliotecaNumerosNarcisista.Testes\BibliotecaNumerosNarcisista.Testes.csproj", "{832304E2-72D5-4854-8FEC-E961FBFF2AEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

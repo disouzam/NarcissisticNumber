@@ -25,7 +25,7 @@ namespace numeronarcisista
 
             for (int i = 0; i <= 1000; i++)
             {
-                if (NumerosNarcisista.verificanumero(i))
+                if (NumerosNarcisista.VerificaNumero(i))
                 {
                     Console.WriteLine(i);
                 }

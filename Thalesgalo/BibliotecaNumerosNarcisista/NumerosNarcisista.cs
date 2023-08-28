@@ -2,9 +2,9 @@
 {
     public class NumerosNarcisista
     {
-        public static int numerodedigitos(long n)
+        public static int NumeroDeDigitos(long n)
         {
-            int cont = 0;
+            var cont = 0;
 
             if (n == 0)
             {
@@ -21,25 +21,25 @@
             return cont;
         }
 
-        public static bool verificanumero(long n)
+        public static bool VerificaNumero(long n)
         {
             if (n == 0)
             {
                 return false;
             }
 
-            int numerodigitos = numerodedigitos(n);
-            long numerooriginal = n;
+            var numerodigitos = NumeroDeDigitos(n);
+            var numerooriginal = n;
             long soma = 0;
 
             while (n > 0) 
             {
-                long ultimodigito = n % 10;
+                var ultimodigito = n % 10;
                 n /= 10;
                 soma = soma + (long)Math.Pow(ultimodigito, numerodigitos);
             }
 
-            bool resposta = soma == numerooriginal;
+            var resposta = soma == numerooriginal;
 
             return resposta;
         }
