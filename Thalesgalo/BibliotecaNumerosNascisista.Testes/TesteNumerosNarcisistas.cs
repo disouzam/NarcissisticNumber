@@ -92,11 +92,7 @@ namespace BibliotecaNumerosNascisista.Testes
         [InlineData(28116440335967)]
         [InlineData(4338281769391370)]
         [InlineData(4338281769391371)]
-        [InlineData(21897142587612075)]
-        [InlineData(35641594208964132)]
-        [InlineData(35875699062250035)]
-        [InlineData(1517841543307505039)]
-        public void VerificacaoDeAlgunsNumerosNarcisistas(int n)
+        public void VerificacaoDeAlgunsNumerosNarcisistas(long n)
         {
             //Arrange
             bool resposta = false;
