@@ -1,0 +1,36 @@
+{
+    "stryker-config": {
+        "additional-timeout": 20000,
+        "baseline": {},
+        "since": {},
+        "project-info": {},
+        "concurrency": 4,
+        "coverage-analysis": "perTest",
+        "disable-bail": false,
+        "disable-mix-mutants": false,
+        "ignore-methods": [],
+        "ignore-mutations": [],
+        "language-version": "Csharp10",
+        "mutate": [],
+        "mutation-level": "Complete",
+        "project": "BibliotecaNumerosNarcisista.csproj",
+        "report-file-name": "stryker-report.html",
+        "reporters": [
+            "progress",
+            "html",
+            "cleartext"
+        ],
+        "solution": "..\\Numero narcisista.sln",
+        "target-framework": "net6.0",
+        "test-case-filter": "",
+        "test-projects": [
+            "BibliotecaNumerosNarcisista.Testes.csproj"
+        ],
+        "thresholds": {
+            "high": 0,
+            "low": 0,
+            "break": 0
+        },
+        "verbosity": "debug"
+    }
+}

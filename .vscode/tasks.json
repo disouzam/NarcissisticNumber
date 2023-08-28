@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        // Task ------ [BibliotecaNumerosNarcisista] Run full Stryker.NET Mutation testing
+        {
+            "label": "[BibliotecaNumerosNarcisista] Run full Stryker.NET Mutation testing",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "hide": false,
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "stryker",
+                "--config-file",
+                "stryker-config-full.json",
+                "--open-report"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}\\Thalesgalo\\BibliotecaNumerosNarcisista.Testes"
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
