@@ -24,7 +24,7 @@
         "target-framework": "net6.0",
         "test-case-filter": "",
         "test-projects": [
-            "BibliotecaNumerosNascisista.Testes.csproj"
+            "BibliotecaNumerosNarcisista.Testes.csproj"
         ],
         "thresholds": {
             "high": 0,

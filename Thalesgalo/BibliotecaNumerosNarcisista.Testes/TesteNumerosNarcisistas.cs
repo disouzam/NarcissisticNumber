@@ -2,7 +2,7 @@ using BibliotecaNumerosNarcisista;
 using Xunit;
 using FluentAssertions;
 
-namespace BibliotecaNumerosNascisista.Testes
+namespace BibliotecaNumerosNarcisista.Testes
 {
     public class TesteNumerosNarcisistas
     {

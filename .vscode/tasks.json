@@ -22,7 +22,7 @@
                 "--open-report"
             ],
             "options": {
-                "cwd": "${workspaceFolder}\\Thalesgalo\\BibliotecaNumerosNascisista.Testes"
+                "cwd": "${workspaceFolder}\\Thalesgalo\\BibliotecaNumerosNarcisista.Testes"
             },
             "problemMatcher": "$msCompile"
         }

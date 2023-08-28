@@ -397,5 +397,5 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 README.html
-Thalesgalo/BibliotecaNumerosNascisista.Testes/coveragereport/*
+Thalesgalo/BibliotecaNumerosNarcisista.Testes/coveragereport/*
 Thalesgalo/comandos-dotnet-stryker.html
