@@ -1,3 +1,6 @@
+# Set root to false if you want to inherit .editorconfig settings from higher directories
+root = true 
+
 # To learn more about .editorconfig see https://aka.ms/editorconfigdocs
 ###############################
 # Core EditorConfig Options   #
