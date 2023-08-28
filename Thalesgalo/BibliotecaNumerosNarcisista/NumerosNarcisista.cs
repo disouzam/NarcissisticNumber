@@ -2,7 +2,7 @@
 {
     public class NumerosNarcisista
     {
-        public static int numerodedigitos(int n)
+        public static int numerodedigitos(long n)
         {
             int cont = 0;
 
@@ -21,7 +21,7 @@
             return cont;
         }
 
-        public static bool verificanumero(int n)
+        public static bool verificanumero(long n)
         {
             if (n == 0)
             {
@@ -29,15 +29,14 @@
             }
 
             int numerodigitos = numerodedigitos(n);
-            int numerooriginal = n;
-            int soma = 0;
+            long numerooriginal = n;
+            long soma = 0;
 
             for (int i = 0; i < numerodigitos; i++)
             {
-                int ultimodigito = n % 10;
+                long ultimodigito = n % 10;
                 n /= 10;
-                soma = soma + (int)Math.Pow(ultimodigito, numerodigitos);
-                
+                soma = soma + (long)Math.Pow(ultimodigito, numerodigitos);
             }
 
             bool resposta = soma == numerooriginal;

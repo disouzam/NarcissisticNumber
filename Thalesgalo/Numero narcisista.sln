@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AplicacaoConsole", "AplicacaoConsole.csproj", "{FBBE6C5E-14F2-4F28-945C-53030500E954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AplicacaoConsole", "AplicacaoConsole\AplicacaoConsole.csproj", "{FBBE6C5E-14F2-4F28-945C-53030500E954}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaNumerosNarcisista", "..\BibliotecaNumerosNarcisista\BibliotecaNumerosNarcisista.csproj", "{DB002947-8711-4AE3-AF7C-A5044120F581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaNumerosNarcisista", "BibliotecaNumerosNarcisista\BibliotecaNumerosNarcisista.csproj", "{DB002947-8711-4AE3-AF7C-A5044120F581}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaNumerosNascisista.Testes", "BibliotecaNumerosNascisista.Testes\BibliotecaNumerosNascisista.Testes.csproj", "{832304E2-72D5-4854-8FEC-E961FBFF2AEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DB002947-8711-4AE3-AF7C-A5044120F581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB002947-8711-4AE3-AF7C-A5044120F581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB002947-8711-4AE3-AF7C-A5044120F581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832304E2-72D5-4854-8FEC-E961FBFF2AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832304E2-72D5-4854-8FEC-E961FBFF2AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832304E2-72D5-4854-8FEC-E961FBFF2AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832304E2-72D5-4854-8FEC-E961FBFF2AEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
